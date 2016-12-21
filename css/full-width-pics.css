@@ -1,0 +1,140 @@
+
+video#bgvid { 
+    position: fixed;
+top: 50%;
+left: 50%;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -100;
+
+transform: translateX(-50%) translateY(-50%);
+
+@media screen and (max-width: 500px) { 
+  div{width:70%;} 
+}
+}
+
+    #google_map {
+        height:300px;
+        width:350px;
+    }
+    .gm-style-iw * {
+        display: block;
+        width: 100%;
+    }
+    .gm-style-iw h4, .gm-style-iw p {
+        margin: 0;
+        padding: 0;
+    }
+    .gm-style-iw a {
+        color: #4272db;
+    }
+
+
+body {
+    margin-top: 50px;
+    padding-bottom:50px;
+    /* Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.image-bg-fluid-height,
+.image-bg-fixed-height {
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.image-bg-fluid-height {
+    font-size: 20px;
+    padding: 250px 0;
+}
+
+
+/*THE SKILL SET DESCRIPTION*/
+div.widget-content{
+    padding:15px 50px 0px 55px;
+
+}
+
+/*RANDOM IMAGE*/
+.image-bg-fixed-height {
+    background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;
+    height: 450px;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+section {
+    padding: 300px 0;
+}
+
+.section-heading {
+    margin: 50px 0px 0px 0px;
+    font-size: 4em;
+}
+
+.section-lead { 
+    
+
+    margin: 30px 0;
+    font-size: 28px;
+}
+
+.section-paragraph {
+
+    font-size: 22px;
+    margin: 30px 100px 0px 100px;
+}
+
+footer {
+    margin: 0px 0px 10px 10px;
+}
+
+@font-face {
+  font-family: "Billabong";
+  src: url(Billabong.ttf) format("truetype");
+}
+header { font-family: "Billabong", Regular; }
+
+div.row{
+}
+    padding-bottom:100px;
+
+
+.widget { font-size: 18px; line-height: 25px; }
+
+.widget-teaser { padding-top: 32px; }
+.widget-teaser .widget-title { margin: 30px 0 54px; }
+.widget-teaser img { margin: 0 auto; display: block; }
+
+
+.widget-teaser .widget-title { margin-bottom: 20px; }
+    .widget-teaser .widget-content { border-bottom: border-top: none; padding-top: 0; }
+
+
+#footer .widget-flickr .widget-content { padding: 0; overflow: hidden; }
+.widget-flickr .widget-content > div { width: 110%; overflow: hidden; }
+
+
+.width-33 { width: 33.3%; float: left; }
+
+@media(max-width:768px) {
+    section {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .section-heading {
+        font-size: 2em;
+    }
+}
+
+#map{
+    width: 33.3%;
+    height: auto;
+}
